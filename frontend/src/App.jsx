@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Login from "./Login";
 import "./App.css";
 
-const API = "http://127.0.0.1:5000";
+const API = "https://security-monitoring-dashboard.onrender.com";
 
 async function authFetch(url, options = {}) {
   const token = localStorage.getItem("token");
